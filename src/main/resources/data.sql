@@ -1,0 +1,3 @@
+INSERT INTO PAGE (TITLE, CONTENT)
+SELECT 'Welcome', 'Welcome to our website!'
+WHERE NOT EXISTS (SELECT * FROM PAGE WHERE TITLE = 'Welcome');
