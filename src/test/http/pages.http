@@ -1,0 +1,8 @@
+### Get all Pages
+GET http://localhost:8080/api/pages
+
+### Get a Page by ID that exists
+GET http://localhost:8080/api/pages/1
+### Get a Page by ID that does not exist
+GET http://localhost:8080/api/pages/9999
+###
